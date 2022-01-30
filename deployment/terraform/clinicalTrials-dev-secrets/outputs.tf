@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+output "project_id" {
+  value = module.project.project_id
+}
 
-folder         = "folders/444565693245"
-auditors_group = "judealexis-studies-dev-auditors@clinicaltrials.one"
+output "project_number" {
+  value = module.project.project_number
+}
